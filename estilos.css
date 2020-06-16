@@ -1,0 +1,145 @@
+.padre-container{
+display: flex;
+border: red solid 4px;
+height: 600px;
+margin: 10px;
+justify-content: center;
+}
+
+
+.BarNavMeses {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3b3b9;
+    align-items: center;
+    padding: 10px;
+    margin-top: 60px;
+    height: 500px;
+    width:20%;
+    text-decoration: none;
+}
+
+
+
+.BarNavMeses > a {
+
+    font-size: 40px;
+    font-weight: lighter;
+    color: #3e3e3e;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    cursor: pointer;
+   text-decoration: none;
+}
+
+ .BarNavMeses> a:hover {
+    color: #f24cc0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 
+.BarNavMeses>.mesActivo {
+    color: #f24cc0;
+    font-weight: bold;
+    text-decoration: underline;
+} */
+
+
+
+.contentInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 500px;
+    margin-top: 60px;
+    overflow-y: scroll;
+    padding-left: 200px;
+   }
+
+.contentInfo > 
+.mayo,
+.junio,
+.julio
+ {
+     display: none;
+    width: 90%;
+    
+
+   } 
+
+    .cards {
+    display: flex;
+    background-color:#ffff;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 6px 13px -1px rgba(206, 206, 206, 1);
+    -moz-box-shadow: 7px 6px 13px -1px rgba(206, 206, 206, 1);
+    box-shadow: 7px 6px 13px -1px rgba(206, 206, 206, 1);
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+
+.cards>.fecha {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.cards>.fecha>h2 {
+    font-size: 40px;
+    margin-bottom: 10px !important;
+    color: #3e3e3e
+}
+
+.cards>.fecha>h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.cards>.conferecia {
+    width: 90%;
+}
+
+.cards>.conferecia>h2 {
+    font-size: 17px;
+    color: #2aaaac;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.cards>.conferecia>h3 {
+    font-size: 13px;
+    line-height: 0px;
+    font-weight: normal;
+}
+
+.cards>.conferecia>h4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.cards>.conferecia>.accion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cards>.conferecia>.accion>h5 {
+    background: url("imgs/icoUno.jpg") no-repeat;
+    padding-left: 25px;
+    height: 40px;
+}
+
+.cards>.conferecia>.accion>.btn {
+    height: 10px !important;
+    background-color: #ffff;
+    border: #f24cc0 solid;
+    color: #f24cc0;
+}
+
+/* NavDias
+.navDias {
+    width: 3% !important;
+} */
